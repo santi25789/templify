@@ -57,6 +57,16 @@ button[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
+button[type="submit"] {
+    width: 107%; /* Cambiamos el ancho a automático para que se ajuste al contenido */
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
 
 .social-button:hover {
     background-color: #ddd;
